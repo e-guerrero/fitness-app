@@ -1,0 +1,75 @@
+.container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.nutritionData {
+  width: 100%;
+  height: 25%;
+  margin-bottom: 2px;
+}
+
+.firstRowContainer {
+  display: flex;
+  width: 100%;
+  height: 35%;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+.calendar {
+  width: 50%;
+  height: 100%;
+  margin-right: 2px;
+}
+
+.columnContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.kitchenInventory {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 2px;
+}
+
+.recipes {
+  width: 100%;
+  height: 50%;
+}
+
+.groceries {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 2px;
+}
+
+.secondRowContainer {
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+
+.restaurants {
+  width: 50%;
+  height: 100%;
+  margin-right: 2px;
+}
+
+.foodLibrary {
+  width: 50%;
+  height: 100%;
+  background-color: #282a3a;
+}
+
+button {
+  text-align: center;
+  background-color: #9496a1;
+  color: white;
+}

@@ -1,0 +1,128 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+}
+
+.tabBar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.tabBar button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tabBar .active {
+  border-bottom: 2px solid blue;
+  font-weight: bold;
+}
+
+.list {
+  flex: 2;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: aqua;
+  font-size: xx-large;
+}
+
+.listItem {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+} */
+
+/* src/index.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.upper {
+  flex: 0 0 auto; /* Flex properties to keep the height fixed */
+  background: #eee;
+  flex-direction: column;
+}
+
+.navBar button {
+  background-color: orange;
+  position: absolute;
+  left: 0;
+}
+
+.navBar h1 {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.listTabBar {
+  display: flex;
+  background-color: aqua;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.listTabBar button {
+  background-color: yellow;
+  flex: 1;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.content {
+  flex: 1 1 auto; /* Flex properties to allow it to grow and shrink */
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  background-color: cadetblue;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.content button {
+  background-color: yellowgreen;
+}
+
+.bottom {
+  flex: 0 0 auto; /* Flex properties to keep the height fixed */
+  display: flex;
+  background-color: cornflowerblue;
+  flex-direction: column;
+}
+
+.bottom button {
+  align-self: flex-end;
+  background-color: orange;
+}
+
+/* .bottom div {
+                              display: flex;
+                              background-color: aqua;
+                            }
+
+                            .bottom div button {
+                              flex: 1;
+                              text-align: center;
+                              margin-left: 5px;
+                              margin-right: 5px;
+                              background-color: yellow;
+                            } */
+
+button {
+  cursor: pointer;
+}
