@@ -1,5 +1,5 @@
 # fitness-app
-Fitness app that allows you to create recipes and automatically adjusts the quantity of each ingredient in you pre-configured meal schedule to meet nutritional goals. Carb-cycling included. Also facilitates logging and analyzing exercise data. Exercise data auto adjusts nutritional data and vice versa. 
+Fitness app that allows you to create recipes within a cozy Nintendo-like atmosphere. It the automatically adjusts the quantity of each ingredient in your pre-configured meal schedule to meet your nutritional goals. Carb-cycling included. Also facilitates logging and analyzing exercise data. Exercise performed (optionally tracked more accurately with smart watch) auto adjusts the food amount needed in your meal schedule and food eaten will auto adjust exercise needed. 
 
 Uses React + Typescript and Pocketbase (extended with Golang) with its built-in SQLite (WAL mode) database.
 
